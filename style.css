@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+  font-family: "Jost", sans-serif;   
+}
+#banner {
+    background: linear-gradient(rgba(8, 1, 1, 0.664),#42066981 ), url(sauce_assets/sauce_banner2.jpg);
+    background-size: cover;
+    background-position: absolute;
+    height: 100vh;
+}
+.logo{
+    width: 140px;
+    position:absolute;
+    top: 20px;
+    left: 10px;
+}
+.banner-text{
+    text-align: center;
+    color: #ab35f0;
+    padding-top: 180px;
+
+}
+.banner-text h1{
+    font-size: 55px;
+     font-family: "Anton", sans-serif;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-btn{
+    size: 800px;
+}
+.button{
+    display: inline-block;
+    background: url(sauce_assets/green\ goo.webp);
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: 0.7s;
+    border: 2px solid #ab35f0;
+    cursor: pointer;
+
+    
+}
+
+.button:hover{
+    background: url(sauce_assets/purple\ goo.webp);
+    color: #000;
+    border: 2px solid 
+}
+
+#sideNav{
+    width:250px;
+    height: 100vh;
+    position: fixed;
+    right:-250px;
+    top:0;
+    background:#ab35f0;
+    z-index: 2;
+    transition: 1s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+#menuBtn{
+    width: 27px;
+    height: 47px;
+    background: #250538;
+    position: fixed;
+    right: 1px;
+    top: 20px;
+    border-radius: 5px;
+    z-index: 2;
+    cursor: pointer;
+    padding-left: 7px;
+    padding-bottom: 7px;
+    
+}
+#menuBtn img{
+width: 20px;
+margin-top: 15px;
+}
+@media screen and (max-width: 600px){
+    .banner-text h1{
+        font-size: 30px;
+    }
+    .banner-text a{
+        display: block;
+        margin: 20px auto;
+    }
+
+}
+/*saucecast section*/
+#saucecast{
+    padding-top:100px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.733),#00000081 ), url(sauce_assets/sauceboiz_stage2.jpg);
+    background-size: cover;
+    color: #fad5ef;
+}
+#saucecast h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+#saucecast p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.saucecast-col{
+    flex-basis: 30%;
+    background: #1b1919;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.saucecast-col:hover {
+    box-shadow: 0 0 20px 0 #e77bc7;
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+#artists{
+    display: inline-block;
+    padding: 50px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.733),#3f034e81 ), url(sauce_assets/sauce_logo2.jpg);
+    background-size: cover;
+    color: #fad5ef;
+}
+.artist-col{
+
+    width: 80%;
+    padding: 5px;
+    margin: 60px auto 50px;
+    flex-direction: column;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.artist-col img{
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.artist-col:hover{
+    box-shadow: 0 0 25px 0 #110f01;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+    
