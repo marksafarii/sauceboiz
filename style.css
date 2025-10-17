@@ -24,7 +24,13 @@
 .banner-text h1{
     font-size: 55px;
      font-family: "Anton", sans-serif;
+
 }
+.banner-text h1:hover{
+    box-shadow: #ab35f0 0 0 20px 0;
+    transition: 0.7s;
+}
+
 .banner-text p{
     font-size: 20px;
     font-style: italic;
@@ -180,7 +186,7 @@ h3{
     transition: 0.5s;
 }
 .layer{
-    background: rgba(212, 118, 74, 0.288);
+    background: rgba(226, 112, 59, 0.288);
     padding: 20px;
     border-radius: 30px;
     margin-top: 20px;
