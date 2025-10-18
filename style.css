@@ -27,8 +27,8 @@
 
 }
 .banner-text h1:hover{
-    box-shadow: #ab35f0 0 0 20px 0;
-    transition: 0.7s;
+    color: #1a64c5;
+    transition: 1s;
 }
 
 .banner-text p{
@@ -218,3 +218,25 @@ h3{
         color:#0c0c0c;
 
      }
+     .insta{
+    display: inline-block;
+    background: url(sauce_assets/purple\ goo.webp);
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: 0.7s;
+    border: 2px solid #940799;
+    cursor: pointer;
+
+    
+}
+.insta:hover{
+    background: url(sauce_assets/insta.webp);
+    color: #000;
+    border: 2px solid #1a64c5;
+}           
