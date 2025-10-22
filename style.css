@@ -241,6 +241,7 @@ h3{
     border: 2px solid #1a64c5;
 }           
 .merch_events{
+    font-family: 'Lemon/Milk', sans-serif;
     padding: 50px 0;
     text-align: center;
     background: linear-gradient(rgba(102, 94, 25, 0.733),#343d0281 ), url(sauce_assets/sauce_banner3.jpg);
@@ -248,11 +249,13 @@ h3{
     color: #fff;
 }
 .merch_h1{
+    font-family: 'Lemon/Milk', sans-serif;
     position: relative;
     cursor: pointer;
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
+    color: #cec3d4
 }
 
 .merch_h1::after{
@@ -265,17 +268,21 @@ h3{
     left: 50%;
     bottom: -10px;
     transform: translateX(-50%);
+    transition: 1s;
 }
 .merch_h1:hover::after{
-    width: 290px;
+    width: 360px;
     transition: 1s;
 }
 .merch_background{
+    box-shadow: 0 0 20px 0 #311c2e;
     background: rgba(193, 86, 219, 0.589);
     padding: 20px;
     border-radius: 30px;
     margin: 0 20px;
-    color:#000
+    color:#000;
+    transition: 1s;
+    
 }
 .merch_background:hover{
     box-shadow: 0 0 20px 0 #ccbc46;
