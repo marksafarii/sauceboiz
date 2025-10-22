@@ -240,3 +240,47 @@ h3{
     color: #000;
     border: 2px solid #1a64c5;
 }           
+.merch_events{
+    padding: 50px 0;
+    text-align: center;
+    background: linear-gradient(rgba(102, 94, 25, 0.733),#343d0281 ), url(sauce_assets/sauce_banner3.jpg);
+    background-size: cover;
+    color: #fff;
+}
+.merch_h1{
+    position: relative;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.merch_h1::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background: #ab35f0;
+    margin: auto;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+}
+.merch_h1:hover::after{
+    width: 290px;
+    transition: 1s;
+}
+.merch_background{
+    background: rgba(193, 86, 219, 0.589);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 0 20px;
+    color:#000
+}
+.merch_background:hover{
+    box-shadow: 0 0 20px 0 #ccbc46;
+    background: #0c0c0c;
+    transition: 1s;
+    color: #f7f581;
+}
+ 
