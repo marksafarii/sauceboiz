@@ -290,3 +290,18 @@ h3{
     transition: 1s;
     color: #f7f581;
 }
+.sbicons{
+    display: inline-block;
+    gap: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+
+
+}
+#SVGRepo_bgCarrier, #SVGRepo_tracerCarrier, #SVGRepo_iconCarrier:hover {
+    transition: 0.5s;
+    display: inline-block;
+    transform: scale(1.1);
+        
+}
