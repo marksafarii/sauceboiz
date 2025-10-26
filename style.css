@@ -300,7 +300,7 @@ h3{
 
 }
 .social-icons button{
-    display: inline-block;
+    flex-direction: row;;
     background: url(sauce_assets/insta.webp);
     color: #fff;
     padding: 10px 20px;
@@ -324,4 +324,35 @@ h3{
 .social-icons button a{
     text-decoration: none;
     color: #fff;
+}
+.social-icons button2{
+    flex-direction: row;
+    background: url(sauce_assets/saucetube.webp);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: 0.7s;
+    border: 2px solid #910202;
+    cursor: pointer;
+
+    
+}
+.social-icons button2 a{
+    text-decoration: none;
+    color: #fff;
+}
+.social-icons button2:hover{
+    background: url(sauce_assets/sauce_white.webp);
+    color: #000;
+    border: 2px solid #ffffff36;
+}
+.social-icons button2 a:hover{
+    text-decoration: none;
+    color: #8f0b0b;
+   
 }
