@@ -299,9 +299,29 @@ h3{
 
 
 }
-#SVGRepo_bgCarrier, #SVGRepo_tracerCarrier, #SVGRepo_iconCarrier:hover {
-    transition: 0.5s;
+.social-icons button{
     display: inline-block;
-    transform: scale(1.1);
+    background: url(sauce_assets/insta.webp);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: 0.7s;
+    border: 2px solid #d6129b;
     cursor: pointer;
+
+    
+}
+.social-icons button:hover{
+    background: url(sauce_assets/insta2.webp);
+    color: #000;
+    border: 2px solid #da990d;
+}
+.social-icons button a{
+    text-decoration: none;
+    color: #fff;
 }
