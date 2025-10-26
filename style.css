@@ -4,7 +4,7 @@
   font-family: "Jost", sans-serif;   
 }
 #banner {
-    background: linear-gradient(rgba(8, 1, 1, 0.664),#42066981 ), url(sauce_assets/sauce_banner2.jpg);
+    background: linear-gradient(rgba(8, 1, 1, 0.664),#42066981 ), url(sauce_assets/sauce_aqua.webp);
     background-size: cover;
     background-position: absolute;
     height: 100vh;
@@ -17,8 +17,9 @@
 }
 .banner-text{
     text-align: center;
-    color: #ab35f0;
+    color: #ffffff;
     padding-top: 180px;
+    text-shadow: 10px 12px 10px #000000;
 
 }
 .banner-text h1{
@@ -27,7 +28,7 @@
 
 }
 .banner-text h1:hover{
-    color: #1a64c5;
+    color: #b0f3f3;
     transition: 1s;
 }
 
