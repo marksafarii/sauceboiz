@@ -197,10 +197,14 @@ margin-top: 15px;
     margin-top: 20px;
     transition: 1s;
     
-        text-shadow: 6px 10px 6px #110f01;
+       
 }
-     .layer:hover{
-        box-shadow: 0 0 25px 0 #110f01;
+.layer button a{
+    text-decoration: none;
+    color: #faf8f8;
+    text-shadow:6px 6px 6px #110f01;
+}
+.layer:hover{
         background: #1a64c5;
         transition: 1s;
 
@@ -216,6 +220,10 @@ margin-top: 15px;
         left: 50%;
         transform:translateX(-50%);
         position: absolute;
+
+     }
+     .layer h1{
+        text-shadow: 6px 6px 6px #110f01;
 
      }
      .layer:hover h3{
@@ -257,6 +265,7 @@ margin-top: 15px;
     color: #fff;
 }
 .merch_h1{
+    text-shadow: 6px 6px 6px #240321;
     font-family: 'Lemon/Milk', sans-serif;
     position: relative;
     cursor: pointer;
