@@ -364,6 +364,7 @@ margin-top: 15px;
     
 }
 .social-icons button2 a{
+    font-family: "Anton", sans-serif;
     text-decoration: none;
     color: #fff;
 }
@@ -393,10 +394,45 @@ margin-top: 15px;
     border: 2px solid #e7117c;
     cursor: pointer;
 
-    
-
 }
 .social-icons button3 a{
+     font-family: "Anton", sans-serif;
     color:#000;
     text-decoration: none;
+}
+.social-icons button3:hover{
+ background: url(sauce_assets/sauce_tiktok2.webp);
+    color: #000;
+    border: 2px solid #ffffff36;
+}
+.social-icons button4{
+     flex-direction: row;
+    background: url(sauce_assets/sauce_spotify.webp);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: 0.7s;
+    border: 2px solid rgb(7, 207, 24);
+    cursor: pointer; 
+
+
+}
+.social-icons button4 a{
+     font-family: "Anton", sans-serif;
+    color:#000;
+    text-decoration: none;
+}
+.social-icons button4:hover{
+     background: url(sauce_assets/green\ goo.webp);
+    border: 2px solid #01050036;
+
+}
+.social-icons button4:hover a{
+    color:#fff;
+    transition: 0.7s;
 }
