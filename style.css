@@ -185,6 +185,10 @@ margin-top: 15px;
     cursor: pointer;
 
 }
+.artist-col h2{
+    text-shadow: 6px 6px 6px #240321;
+
+}
 .artist-col:hover{
     box-shadow: 0 0 25px 0 #110f01;
     border-radius: 10%;
@@ -373,7 +377,26 @@ margin-top: 15px;
     color: #8f0b0b;
  
 }
-.artist-col h2{
-    text-shadow: 6px 6px 6px #240321;
+.social-icons button3{
+    
+    flex-direction: row;
+    background: url(sauce_assets/sauce_tiktok.webp);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: 0.7s;
+    border: 2px solid #e7117c;
+    cursor: pointer;
 
+    
+
+}
+.social-icons button3 a{
+    color:#000;
+    text-decoration: none;
 }
