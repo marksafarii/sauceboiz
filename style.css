@@ -167,7 +167,7 @@ margin-top: 15px;
     padding: 50px 0;
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.733),#3f034e81 ), url(sauce_assets/sauce_logo2.jpg);
-    background-size: cover;
+    background-position: center;
     color: #fad5ef;
 }
 .artist-col{
@@ -264,7 +264,7 @@ margin-top: 15px;
     font-family: 'Lemon/Milk', sans-serif;
     padding: 50px 0;
     text-align: center;
-    background: linear-gradient(rgba(102, 94, 25, 0.733),#343d0281 ), url(sauce_assets/sauce_banner3.jpg);
+    background: linear-gradient(rgba(4, 1, 20, 0.733),#ad822481 ), url(sauce_assets/sauce_logo.jpg);
     background-size: cover;
     color: #fff;
 }
@@ -343,6 +343,7 @@ margin-top: 15px;
     border: 2px solid #da990d;
 }
 .social-icons button a{
+    font-family: "Anton", sans-serif;
     text-decoration: none;
     color: #fff;
 }
@@ -371,13 +372,10 @@ margin-top: 15px;
 .social-icons button2:hover{
     background: url(sauce_assets/sauce_white.webp);
     color: #000;
-    border: 2px solid #ffffff36;
+    border: 2px solid #a70707af;
 }
-.social-icons button2 a:hover{
-    text-decoration: none;
-    color: #8f0b0b;
- 
-}
+
+
 .social-icons button3{
     
     flex-direction: row;
@@ -397,7 +395,7 @@ margin-top: 15px;
 }
 .social-icons button3 a{
      font-family: "Anton", sans-serif;
-    color:#000;
+    color:#faf7f7;
     text-decoration: none;
 }
 .social-icons button3:hover{
@@ -424,7 +422,7 @@ margin-top: 15px;
 }
 .social-icons button4 a{
      font-family: "Anton", sans-serif;
-    color:#000;
+    color:#f7f4f4;
     text-decoration: none;
 }
 .social-icons button4:hover{
@@ -435,4 +433,66 @@ margin-top: 15px;
 .social-icons button4:hover a{
     color:#fff;
     transition: 0.7s;
+}
+.social-icons button5{
+     flex-direction: row;
+    background: url(sauce_assets/sauce-apple.webp);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: 0.7s;
+    border: 2px solid rgb(165, 160, 162);
+    cursor: pointer; 
+
+
+}
+.social-icons button5 a{
+    color: #000;
+     font-family: "Anton", sans-serif;
+     text-decoration: none;
+    
+}
+ .social-icons button5:hover{
+    transition: 0.7s;
+    border: #e77bc7;
+
+    background: url(sauce_assets/sauce_red.webp)
+ }
+.social-icons button6{
+    flex-direction: row;
+    background: url(sauce_assets/sauce-bright\ aqua.webp);
+    color: #fff;
+    padding-top:10px ;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: 0.6s;
+    border: 2px solid rgb(33, 243, 226);
+    cursor: pointer; 
+
+
+}
+.social-icons button6 a{
+    text-decoration: none;
+    font-family:"Anton", sans-serif;
+    color:#000;
+}
+.social-icons button6:hover{
+    background: url(sauce_assets/sea-surface-blue.webp);
+    transition: 0.6s;
+    
+}
+.merch_events footer{
+    text-shadow: 6px 6px 6px #000000;
+    
+
 }
