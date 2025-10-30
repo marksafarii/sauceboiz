@@ -62,6 +62,36 @@
     color: #000;
     border: 2px solid 
 }
+.buttonsb{
+    display: inline-block;
+    background: url(sauce_assets/sauce_red.webp);
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: 0.7s;
+    border: 2px solid #f84d19;
+    cursor: pointer;
+
+    
+}
+.buttonsb:hover{
+    background: url(sauce_assets/sauce_tiktok.webp);
+    color: #000;
+    border: 2px solid 
+}
+.saucecastsample{
+    text-align: center;
+}
+.saucecastsample h3{
+    color:#ffffff;
+    font-style: italic;
+    text-shadow: 4px 4px 4px #000000;
+}
 
 #sideNav{
     width:250px;
@@ -123,7 +153,7 @@ margin-top: 15px;
 }
 #saucecast h3{
      text-shadow: 6px 6px 6px #240321;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 600;
 }
 #saucecast p{
