@@ -7,7 +7,7 @@
     background: linear-gradient(rgba(8, 1, 1, 0.664),#42066981 ), url(sauce_assets/sauce_aqua.webp);
     background-size: cover;
     background-position: absolute;
-    height: 100vh;
+    height: 130vh;
 }
 .logo{
     width: 140px;
@@ -25,7 +25,7 @@
 .banner-text h1{
     font-size: 55px;
      font-family: "Anton", sans-serif;
-
+     padding-bottom: 2%;
 }
 .banner-text h1:hover{
     color: #b0f3f3;
@@ -35,6 +35,7 @@
 .banner-text p{
     font-size: 20px;
     font-style: italic;
+    padding-bottom: 2%;
 }
 .banner-btn{
     size: 800px;
@@ -84,14 +85,7 @@
     color: #000;
     border: 2px solid 
 }
-.saucecastsample{
-    text-align: center;
-}
-.saucecastsample h3{
-    color:#ffffff;
-    font-style: italic;
-    text-shadow: 4px 4px 4px #000000;
-}
+
 
 #sideNav{
     width:250px;
@@ -294,7 +288,7 @@ margin-top: 15px;
     font-family: 'Lemon/Milk', sans-serif;
     padding: 50px 0;
     text-align: center;
-    background: linear-gradient(rgba(4, 1, 20, 0.733),#ad822481 ), url(sauce_assets/sauce_logo.jpg);
+    background: linear-gradient(rgba(5, 0, 36, 0.733),#53401681 ), url(sauce_assets/sauce_logo.jpg);
     background-size: cover;
     color: #fff;
 }
@@ -457,7 +451,7 @@ margin-top: 15px;
 }
 .social-icons button4:hover{
      background: url(sauce_assets/green\ goo.webp);
-    border: 2px solid #01050036;
+    border: 2px solid #0c3003d5;
 
 }
 .social-icons button4:hover a{
