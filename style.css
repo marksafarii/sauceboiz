@@ -209,6 +209,29 @@ margin-top: 15px;
     cursor: pointer;
 
 }
+.jav{
+      display: inline-block;
+    background: url(sauce_assets/saucetube.webp);
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: 0.7s;
+    border: 2px solid #f84d19;
+    cursor: pointer;
+
+}
+.jav:hover{
+   background: url(sauce_assets/insta2.webp);
+    color: #000;
+    border: 2px solid #990dda;
+}
+
+
 .artist-col h2{
     text-shadow: 6px 6px 6px #240321;
 
