@@ -3,7 +3,7 @@
     padding: 0;
   font-family: "Jost", sans-serif;   
 }
-#banner {
+#home {
     background: linear-gradient(rgba(8, 1, 1, 0.664),#42066981 ), url(sauce_assets/sauce_aqua.webp);
     background-size: cover;
     background-position: absolute;
