@@ -368,7 +368,7 @@ margin-top: 15px;
 
 }
 .social-icons button{
-    flex-direction: row;;
+    flex-direction: column;
     background: url(sauce_assets/insta.webp);
     color: #fff;
     padding: 10px 20px;
@@ -395,7 +395,7 @@ margin-top: 15px;
     color: #fff;
 }
 .social-icons button2{
-    flex-direction: row;
+    flex-direction: colmn;
     background: url(sauce_assets/saucetube.webp);
     color: #fff;
     padding: 10px 20px;
@@ -425,7 +425,7 @@ margin-top: 15px;
 
 .social-icons button3{
     
-    flex-direction: row;
+    flex-direction:column;
     background: url(sauce_assets/sauce_tiktok.webp);
     color: #fff;
     padding: 10px 20px;
@@ -451,7 +451,7 @@ margin-top: 15px;
     border: 2px solid #ffffff36;
 }
 .social-icons button4{
-     flex-direction: row;
+     flex-direction: column;
     background: url(sauce_assets/sauce_spotify.webp);
     color: #fff;
     padding: 10px 20px;
@@ -482,7 +482,7 @@ margin-top: 15px;
     transition: 0.7s;
 }
 .social-icons button5{
-     flex-direction: row;
+     flex-direction: column;
     background: url(sauce_assets/sauce-apple.webp);
     color: #fff;
     padding: 10px 20px;
@@ -511,7 +511,7 @@ margin-top: 15px;
     background: url(sauce_assets/sauce_red.webp)
  }
 .social-icons button6{
-    flex-direction: row;
+    flex-direction: column;
     background: url(sauce_assets/sauce-bright\ aqua.webp);
     color: #fff;
     padding-top:10px ;
